@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Alex</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: black;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        ul li a:hover {
+            color: red;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 0 10%;
+        }
+        .hero-content h1 {
+            font-size: 50px;
+        }
+        .hero-content h1 span {
+            color: red;
+        }
+        .hero-content h2 {
+            font-size: 30px;
+        }
+        .highlight {
+            color: red;
+        }
+        .hero-content p {
+            max-width: 500px;
+            line-height: 1.6;
+        }
+        .hire-btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .hire-btn:hover {
+            background-color: darkred;
+        }
+        
+        
+
+        .hero-image img {
+            width: 350px;
+            border-radius: 50%;
+            border: 5px solid red;
+            box-shadow: 0 0 20px red;
+        }
+
+        hr {
+            background-color: grey;
+            color: gray;
+        }
+
+        footer {
+            text-align: center;
+            color: grey;
+            background-color: black;
+        }
+
+        h3 {
+            padding: 1%;
+        }
+        
+        .f-image{
+            padding: 10%;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CUBEY</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, It's <span>CUBEY</span></h1>
+            <h2>I'm a <span class="highlight">Developer</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+            <button class="hire-btn">Hire me</button>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Alex Profile">
+        </div>
+    </section>
+    <footer>
+        <div class="f-image">
+            <h2>Companies I Worked With.</h2>
+            <img src="MyRex.png" alt="MyChain Css">
+            <h3>MyChain</h3>
+            <img src="MyRex - Copy.png" alt="MyChain Css">
+            <h3>T-Sql</h3>
+        </div>
+
+    </footer>
+</body>
+</html>
